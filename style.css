@@ -24,7 +24,7 @@ button:hover{
     cursor: pointer;
 }
 
-/* for google fobnt */
+/* for google font */
 
 .inter-font {
     font-family: "Inter", sans-serif;
@@ -161,6 +161,7 @@ nav ul a:hover {
 
 #notes{
     margin-top: 80px;
+    max-width: 1600px;
 }
 
 #notes header h1{
@@ -185,7 +186,6 @@ nav ul a:hover {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 24px;
-    margin-bottom: 120px;
 }
 
 #cards .card{
@@ -215,3 +215,48 @@ nav ul a:hover {
     line-height: 20px;
     margin-top: 16px;
 }
+
+#brain2{
+    padding: 120px;
+    max-width: 1600px;
+    display: flex;
+}
+
+#brain2 #brain-img{
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #627382;
+}
+
+#brain-container{
+    margin: 102px 0 102px 100px;
+}
+
+#brain-container #solution{
+    font-weight: 500;
+    line-height: 20px;
+    color: #30B868;
+    font-size: 18px;
+}
+
+#brain-container h1{
+    margin: 16px 0 16px 0;
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+}
+
+#brain-container p{
+    font-weight: 500;
+    line-height: 20px;
+    color: #627382;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#cheklist li{
+    list-style: none;
+    margin-bottom: 18px;
+    align-items: center;
+    color: #001931;
+}
+
