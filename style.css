@@ -228,7 +228,8 @@ nav ul a:hover {
 }
 
 #brain-container{
-    margin: 102px 0 102px 100px;
+    margin: 102px 0 102px 60px;
+    max-width: 700px;
 }
 
 #brain-container #solution{
@@ -259,4 +260,39 @@ nav ul a:hover {
     align-items: center;
     color: #001931;
 }
+#early-access{
+    max-width: 1600px;
+    justify-items: center;
+}
 
+
+#early-access .container{
+    margin: 0 120px 120px 120px;
+    background-color: #fffbeb;
+    border-radius: 8px;
+    padding: 80px 40px;
+    width: 85%;
+    max-width: 1360px;
+    justify-items: center;
+    text-align: center;
+}
+#early-access .container h1{
+    margin-bottom: 16px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+}
+#early-access .container p{
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+}
+
+#early-access .container ul{
+    margin-top: 16px;
+    display: flex;
+    gap: 6px;
+    list-style: none;
+    color: #627382;
+}
