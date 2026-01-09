@@ -296,3 +296,27 @@ nav ul a:hover {
     list-style: none;
     color: #627382;
 }
+
+#footer{
+    background-color: #001931;
+    padding:120px 120px 0 120px;
+    max-width: 1600px;
+}
+#footer .container {
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.copyright{
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    padding: 30px;
+}
