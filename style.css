@@ -184,7 +184,6 @@ nav ul a:hover {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    gap: 24px;
 }
 
 #cards .card{
